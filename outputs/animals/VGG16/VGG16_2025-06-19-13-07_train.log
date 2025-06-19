@@ -1,0 +1,54 @@
+2025-06-19 13:07:39,348 Namespace(download_path='./data', download=False, dataset_name='animals', valid_ratio=0.2, test_ratio=0.1, random_seed=10, pin_memory=False, num_workers=4, shuffle=True, batch_size=128, out_dir='./outputs', log_dir='./log_dir', isTrainable=False, n_classes=5, epochs=100)
+2025-06-19 13:07:44,051 Testing Step...
+2025-06-19 13:07:44,051 Loading checkpoint for testing..
+2025-06-19 13:07:48,906 Classifier: VGG16 finished with:
+  • Accuracy (overall):   87.60%
+  • Precision (macro):    86.18%
+  • Recall (macro):       85.35%
+  • F1 score (macro):     85.69%
+2025-06-19 13:07:48,907 
+{
+  "elefante": {
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1-score": 0.875,
+    "support": 144.0
+  },
+  "farfalla": {
+    "precision": 0.9611111111111111,
+    "recall": 0.9558011049723757,
+    "f1-score": 0.9584487534626038,
+    "support": 181.0
+  },
+  "mucca": {
+    "precision": 0.9056603773584906,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8807339449541285,
+    "support": 168.0
+  },
+  "pecora": {
+    "precision": 0.8055555555555556,
+    "recall": 0.8841463414634146,
+    "f1-score": 0.8430232558139535,
+    "support": 164.0
+  },
+  "scoiattolo": {
+    "precision": 0.7619047619047619,
+    "recall": 0.6956521739130435,
+    "f1-score": 0.7272727272727273,
+    "support": 69.0
+  },
+  "accuracy": 0.8760330578512396,
+  "macro avg": {
+    "precision": 0.8618463611859838,
+    "recall": 0.8535484954983381,
+    "f1-score": 0.8568957363006827,
+    "support": 726.0
+  },
+  "weighted avg": {
+    "precision": 0.8771275402064425,
+    "recall": 0.8760330578512396,
+    "f1-score": 0.8758679879673986,
+    "support": 726.0
+  }
+}

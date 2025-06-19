@@ -1,0 +1,21 @@
+2025-06-19 16:19:25,734 Namespace(download_path='./data', download=False, dataset_name='animals', valid_ratio=0.2, test_ratio=0.1, random_seed=10, pin_memory=False, num_workers=4, shuffle=True, batch_size=128, out_dir='./outputs', log_dir='./log_dir', isTrainable=False, n_classes=5, epochs=50)
+2025-06-19 16:19:28,953 Testing Step...
+2025-06-19 16:19:28,953 Loading checkpoint for testing..
+2025-06-19 16:19:31,805 Classifier: VGG16 finished with:
+  • Accuracy (overall):   30.99%
+  • Precision (macro):    40.63%
+  • Recall (macro):       27.62%
+  • F1 score (macro):     20.72%
+2025-06-19 16:19:31,805 
+              precision    recall  f1-score   support
+
+    elefante       0.35      0.08      0.13       144
+    farfalla       0.98      0.25      0.40       181
+       mucca       0.33      0.01      0.02       168
+      pecora       0.27      0.99      0.42       164
+  scoiattolo       0.10      0.04      0.06        69
+
+    accuracy                           0.31       726
+   macro avg       0.41      0.28      0.21       726
+weighted avg       0.46      0.31      0.23       726
+
