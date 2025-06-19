@@ -1,0 +1,4 @@
+2025-06-18 22:45:38,247 Namespace(download_path='./data', download=False, dataset_name='animals', valid_ratio=0.2, test_ratio=0.1, random_seed=10, pin_memory=False, num_workers=4, shuffle=True, batch_size=128, out_dir='./outputs', log_dir='./log_dir', isTrainable=True, n_classes=5, epochs=100)
+2025-06-18 22:45:43,132 Training Epochs 1/100...
+2025-06-18 22:46:02,915 Training Loss: 1.614529 (1.571555) and Validation Loss: 1.598926 (1.599316) / Validation Acc: 23.829200744628906
+2025-06-18 22:46:03,778 Best model is saved at epoch 1

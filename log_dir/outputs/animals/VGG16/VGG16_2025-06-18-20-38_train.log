@@ -1,0 +1,7 @@
+2025-06-18 20:38:25,505 Namespace(download_path='./data', download=False, dataset_name='animals', valid_ratio=0.2, test_ratio=0.1, random_seed=10, pin_memory=False, num_workers=4, shuffle=True, batch_size=128, out_dir='./outputs', log_dir='./log_dir', isTrainable=False, n_classes=5, epochs=50)
+2025-06-18 20:38:28,365 Testing Step...
+2025-06-18 20:38:30,140 Classifier: VGG16 finished with:
+  • Accuracy (overall):   11.43%
+  • Precision (macro):    8.04%
+  • Recall (macro):       21.49%
+  • F1 score (macro):     6.97%
